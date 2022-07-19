@@ -1,0 +1,34 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "eastus"
+    },
+    "dbServerName": {
+      "value": "dbsrv-amtkmr-dev"
+    },
+    "sqlDbName": {
+      "value": "db-amtkmr-dev"
+    },
+    "tags": {
+      "value": {
+        "Department": "Data&Analytics",
+        "CreatedBy": "Pipeline",
+        "owner": "Amitkumar Patil"
+      }
+    },
+    "ADGroupAdmin": {
+      "value": "DBAdmin"
+    },
+    "sid": {
+      "value": "455b78e9-5a63-4dd6-a827-b19424431663"
+    },
+    "tenantId": {
+      "value": "3322a0cd-1b4f-4f8b-bbe5-c1f04af3d6da"
+    },
+    "subnetIdForSqlPrivateLink": {
+      "value": "/subscriptions/bba2c874-6268-48fb-b2c2-4b110514f730/resourceGroups/rg-amtkmrshared-dev/providers/Microsoft.Network/virtualNetworks/vnet-amtkmrshared-dev/subnets/privateendpoints"
+    }
+  }
+}
