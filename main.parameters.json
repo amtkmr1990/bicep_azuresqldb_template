@@ -6,10 +6,10 @@
       "value": "eastus"
     },
     "dbServerName": {
-      "value": "dbsrv-amtkmr-dev"
+      "value": "dbsrv-acme-dev"
     },
     "sqlDbName": {
-      "value": "db-amtkmr-dev"
+      "value": "db-acme-dev"
     },
     "tags": {
       "value": {
@@ -28,7 +28,7 @@
       "value": "3322a0cd-1b4f-4f8b-bbe5-c1f04af3d6da"
     },
     "subnetIdForSqlPrivateLink": {
-      "value": "/subscriptions/bba2c874-6268-48fb-b2c2-4b110514f730/resourceGroups/rg-amtkmrshared-dev/providers/Microsoft.Network/virtualNetworks/vnet-amtkmrshared-dev/subnets/privateendpoints"
+      "value": "/subscriptions/bba2c874-6268-48fb-b2c2-4b110514f730/resourceGroups/rg-acmevnet-dev/providers/Microsoft.Network/virtualNetworks/vnet-acme-dev/subnets/subnet-db"
     }
   }
 }
