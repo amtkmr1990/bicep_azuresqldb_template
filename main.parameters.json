@@ -5,6 +5,9 @@
     "location": {
       "value": "eastus"
     },
+    "rgName": {
+      "value": "rg-acmesql-dev" 
+    },
     "dbServerName": {
       "value": "dbsrv-acme-dev"
     },

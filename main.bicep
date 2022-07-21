@@ -1,5 +1,6 @@
 targetScope = 'subscription'
 
+param rgName string
 param location string 
 param dbServerName string 
 param sqlDbName string 
@@ -14,7 +15,7 @@ param tenantId string
 param subnetIdForSqlPrivateLink string 
 
 resource resourceGroup 'Microsoft.Resources/resourceGroups@2021-04-01' = {
-  name: 'name'
+  name: rgName
   location: location
 }
 
